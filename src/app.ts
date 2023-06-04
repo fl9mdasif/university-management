@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //testing
-app.get('/', (req: Request, res: Respons) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!')
 })
 
