@@ -16,7 +16,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
 
 const logger = createLogger({
   level: 'info',
-  format: combine(label({ label: '✅ success!' }), timestamp(), myFormat),
+  format: combine(label({ label: '✅ success' }), timestamp(), myFormat),
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
@@ -36,9 +36,10 @@ const logger = createLogger({
     }),
   ],
 })
+
 const errorLogger = createLogger({
   level: 'error',
-  format: combine(label({ label: '❌ error !' }), timestamp(), myFormat),
+  format: combine(label({ label: '❌ error' }), timestamp(), myFormat),
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
