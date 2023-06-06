@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\success\\.986954befc2c00e64c1c7bcdf47ba111063c1162-audit.json",
+  "files": [
+    {
+      "date": 1686047477857,
+      "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\success\\success-2023-06-06-16.log",
+      "hash": "f6888c2f1715b464493c0de73db0af2a950a41e81c6b62e0b1827d4d8943e143"
+    }
+  ],
+  "hashType": "sha256"
+}
