@@ -49,6 +49,16 @@
             "date": 1686387615354,
             "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-10-15.log",
             "hash": "db31cf3cc8cf3f7bf0845ff4afacd5bc68f744e98a1a6c27ea4dcad9ad057394"
+        },
+        {
+            "date": 1686461719337,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-11-11.log",
+            "hash": "768b3af98cd3deb369b1b89472176ea5140b9df0df6c14af1765d89a06700b25"
+        },
+        {
+            "date": 1686463336113,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-11-12.log",
+            "hash": "1d08d77ef839f2e468eada11b7cba2e61d45c8cc731b936baf560ec12ed8888a"
         }
     ],
     "hashType": "sha256"
