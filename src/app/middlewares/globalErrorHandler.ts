@@ -30,12 +30,14 @@ const globalErrorHandler: ErrorRequestHandler = (
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
+
     /* validate Error handler */
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
+
     /* zod handler */
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
@@ -48,6 +50,7 @@ const globalErrorHandler: ErrorRequestHandler = (
           },
         ]
       : [];
+
     /* api error handler */
   } else if (error instanceof Error) {
     message = error?.message;
