@@ -1,6 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
 import { AnyZodObject } from 'zod';
-// import { UserService } from '../modules/user/user.service'
 
 const validateRequest =
   (schema: AnyZodObject) =>
@@ -12,8 +11,9 @@ const validateRequest =
         params: req.params,
         cookies: req.cookies,
       });
-    } catch (err) {
-      next(err);
+      return next();
+    } catch (error) {
+      next(error);
     }
   };
 
