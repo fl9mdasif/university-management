@@ -10,6 +10,7 @@ import { Error } from 'mongoose';
 import { errorLogger } from '../../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
+import handleCastError from '../../errors/handleCastError';
 
 const globalErrorHandler: ErrorRequestHandler = (
   error,
@@ -39,6 +40,13 @@ const globalErrorHandler: ErrorRequestHandler = (
     errorMessages = simplifiedError.errorMessages;
 
     /* zod handler */
+  } else if (error?.name === 'CastError') {
+    const simplifiedError = handleCastError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+
+    /* cast error handler */
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
     message = error?.message;
@@ -63,6 +71,7 @@ const globalErrorHandler: ErrorRequestHandler = (
         ]
       : [];
   }
+
   res.status(statusCode).json({
     success: false,
     message,
