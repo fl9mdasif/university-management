@@ -94,6 +94,36 @@
             "date": 1686560407394,
             "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-12-15.log",
             "hash": "452b2c7fba77ae08c19316f7aac4809910e608e1758aabff83c71f959987fffe"
+        },
+        {
+            "date": 1686632234224,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-13-10.log",
+            "hash": "7727b37c8630318fbbf8b2c6e9c63c08e86fdd5bb585e4046b25997e82cedcfa"
+        },
+        {
+            "date": 1686632871154,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-13-11.log",
+            "hash": "dfa6693ec8c7c64f5b1d974de8614dd3f0ce05785387b70fa944fdf9a3af0232"
+        },
+        {
+            "date": 1686636251252,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-13-12.log",
+            "hash": "cd1893c9d89f97167ac0e205e57a88e2b6d5e860c4c61f9fdc72885745e47687"
+        },
+        {
+            "date": 1686718798503,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-14-10.log",
+            "hash": "28575e6b032bc4645d020b459d73b062f3ba78f6140109b871a4904b92130cc9"
+        },
+        {
+            "date": 1686718812458,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-14-11.log",
+            "hash": "c9f44c899cdec67f951049929a0cf3ba03e07e9dcbe5a1e3749cd332a4e1fc7c"
+        },
+        {
+            "date": 1686722405964,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-14-12.log",
+            "hash": "ad14e801159e289a2f35a1d7391ad1a6b33e098a9f0799e97b408c052156d895"
         }
     ],
     "hashType": "sha256"
