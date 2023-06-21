@@ -12,7 +12,7 @@ const handleCastError = (error: mongoose.Error.CastError) => {
   const statusCode = 400;
   return {
     statusCode,
-    message: 'cast Error ',
+    message: 'Cast Error',
     errorMessages: errors,
   };
 };

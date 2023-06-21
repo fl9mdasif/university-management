@@ -6,26 +6,6 @@
     "auditLog": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\.a731f6851730dee7bc4a962747a6d5fb208f0f6d-audit.json",
     "files": [
         {
-            "date": 1686047344446,
-            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-06-16.log",
-            "hash": "ea2c4a57424410294e9a5a76ba79cb20d03b8be3ddaf431c2437abc0f673ad0f"
-        },
-        {
-            "date": 1686049201877,
-            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-06-17.log",
-            "hash": "0fa3cd549c6a36dbb2f2ac8dc18f8e6845032314bdda3055fab616b1f9326d22"
-        },
-        {
-            "date": 1686068601981,
-            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-06-22.log",
-            "hash": "d087ffb56c85b14a5065f67535e3358868aacaa2dd8cf19f5e2f311ba2083348"
-        },
-        {
-            "date": 1686071509999,
-            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-06-23.log",
-            "hash": "b3f9668c5754db0e5c86326ff95dc9c41ac752cceb240424501e0edb4575f312"
-        },
-        {
             "date": 1686201007789,
             "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-08-11.log",
             "hash": "166a306cd44b787cca6f86746622fb0e65a548d62b40b983ef86e1534b21cf6c"
@@ -164,6 +144,66 @@
             "date": 1686978509364,
             "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-17-11.log",
             "hash": "56a91423dac1978f178c1de68897b0a4c477f06c26411f95609e029b3274c178"
+        },
+        {
+            "date": 1686982627929,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-17-12.log",
+            "hash": "522bbd22d8801bb2660385331adb4503b99246eaa4ceabcbda3eba4cd0025526"
+        },
+        {
+            "date": 1686993180866,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-17-15.log",
+            "hash": "1f96f71dc9a028006e3cc4c95ec597fb12f732ac6f32796347b06eba42abf043"
+        },
+        {
+            "date": 1687249000270,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-20-14.log",
+            "hash": "6f2cbfd2179f8dad019e36e9731ec1f836fed61e56cc9202edda67c4fe00d079"
+        },
+        {
+            "date": 1687252006375,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-20-15.log",
+            "hash": "17b312e203557b0bfc4f933297e9dbb7373b50812bb2da64a5e8121a03c5fbd0"
+        },
+        {
+            "date": 1687319421170,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-09.log",
+            "hash": "78691643320b30952f405b8d10cf455767fb2ab4320c61a10e3c6584d5a7c2f8"
+        },
+        {
+            "date": 1687320126968,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-10.log",
+            "hash": "6f49bd285b7e4071bc9dd85b53c405c41751b631d03d1dd8612613c66d497f9b"
+        },
+        {
+            "date": 1687323710071,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-11.log",
+            "hash": "b3597eabe3c6f62eecd7bc927e171518cf855a599c0dbaee589db2038dc8719d"
+        },
+        {
+            "date": 1687327284940,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-12.log",
+            "hash": "fae2054fb47231e643da880f9d7ea6daf7e1f51ac42d4df7c7739774d0ea23d9"
+        },
+        {
+            "date": 1687331083802,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-13.log",
+            "hash": "16c83e43b3d99a0b33cf33ab4539e94deec50b8ab8a137ba5c849b60c79efc81"
+        },
+        {
+            "date": 1687334870594,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-14.log",
+            "hash": "188beadcc4d89e5a903001d4c3ef41b333b59d5481ec154495b2e4a4ed069f87"
+        },
+        {
+            "date": 1687338064707,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-15.log",
+            "hash": "4a0efbd76485738dc51a14be99741a7ce82e1e4c84aa7ac367dc6dd0912bbb65"
+        },
+        {
+            "date": 1687342275057,
+            "name": "E:\\01. Programming Hero\\Next level web development\\3. NoSQL Brainiac\\university_management\\logs\\winston\\errors\\error-2023-06-21-16.log",
+            "hash": "c1ca16395dd12e9cbce2f63da11c70ba1c868f791f3db3dfbb50059335ca0f12"
         }
     ],
     "hashType": "sha256"

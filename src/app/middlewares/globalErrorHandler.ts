@@ -1,28 +1,24 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 /* eslint-disable no-unused-expressions */
 import { ErrorRequestHandler, Request, Response } from 'express';
 import config from '../../config';
-import { IGenericErrorMessage } from '../../interfaces/error';
+import ApiError from '../../errors/ApiError';
 import handleValidationError from '../../errors/handleValidationError';
 
-import ApiError from '../../errors/ApiError';
-import { Error } from 'mongoose';
-import { errorLogger } from '../../shared/logger';
 import { ZodError } from 'zod';
-import handleZodError from '../../errors/handleZodError';
 import handleCastError from '../../errors/handleCastError';
+import handleZodError from '../../errors/handleZodError';
+import { IGenericErrorMessage } from '../../interfaces/error';
+import { logger } from '../../shared/logger';
 
-const globalErrorHandler: ErrorRequestHandler = (
-  error,
-  req: Request,
-  res: Response
-) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
-    ? console.log('globalErrorHandler', error)
-    : errorLogger.error('❌ globalErrorHandler', error);
+    ? console.log(`🐱‍🏍 globalErrorHandler ~~`, { error })
+    : logger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
 
   let statusCode = 500;
-  let message = 'something went wrong';
+  let message = 'Something went wrong !';
   let errorMessages: IGenericErrorMessage[] = [];
 
   if (error?.name === 'ValidationError') {
@@ -30,25 +26,19 @@ const globalErrorHandler: ErrorRequestHandler = (
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
-
-    /* validate Error handler */
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
-
-    /* zod handler */
   } else if (error?.name === 'CastError') {
     const simplifiedError = handleCastError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
-
-    /* cast error handler */
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
-    message = error?.message;
+    message = error.message;
     errorMessages = error?.message
       ? [
           {
@@ -57,8 +47,6 @@ const globalErrorHandler: ErrorRequestHandler = (
           },
         ]
       : [];
-
-    /* api error handler */
   } else if (error instanceof Error) {
     message = error?.message;
     errorMessages = error?.message
@@ -75,7 +63,7 @@ const globalErrorHandler: ErrorRequestHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.env !== 'production' ? error.stack : undefined,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   });
 };
 
