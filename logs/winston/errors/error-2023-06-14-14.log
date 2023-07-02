@@ -1,5 +1,0 @@
-Wed Jun 14 2023 14:18:54 [❌ error] error: ❌ globalErrorHandler $and/$or/$nor must be a nonempty array
-Wed Jun 14 2023 14:32:24 [❌ error] error: ❌ globalErrorHandler $and/$or/$nor must be a nonempty array
-Wed Jun 14 2023 14:32:27 [❌ error] error: ❌ globalErrorHandler $and/$or/$nor must be a nonempty array
-Wed Jun 14 2023 14:55:5 [❌ error] error: ❌ globalErrorHandler Cast to ObjectId failed for value "64895d62314f7f5fe6bc7ae" (type string) at path "_id" for model "AcademicSemester"
-Wed Jun 14 2023 14:58:25 [❌ error] error: ❌ globalErrorHandler Cast to ObjectId failed for value "64895a05809715823b49885" (type string) at path "_id" for model "AcademicSemester"
