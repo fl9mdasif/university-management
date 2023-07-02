@@ -1,2 +1,0 @@
-Thu Jun 08 2023 12:59:0 [❌ error] error: failed to connect db querySrv EREFUSED _mongodb._tcp.cluster0.jdsn640.mongodb.net
-Thu Jun 08 2023 12:59:30 [❌ error] error: failed to connect db querySrv ECONNREFUSED _mongodb._tcp.cluster0.jdsn640.mongodb.net

@@ -1,4 +1,0 @@
-Wed Jun 14 2023 12:6:16 [❌ error] error: ❌ globalErrorHandler Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
-Wed Jun 14 2023 12:7:24 [❌ error] error: ❌ globalErrorHandler Cast to number failed for value "2022" (type string) at path "year" for model "AcademicSemester"
-Wed Jun 14 2023 12:11:30 [❌ error] error: ❌ globalErrorHandler Academic semester is already exist
-Wed Jun 14 2023 12:11:45 [❌ error] error: ❌ globalErrorHandler Invalid semester code
